@@ -38,7 +38,7 @@
                     <projectArtifact/>
                     <buildDirectory/>
                     <basedir/>
-                    <mainOutputDirectory/>
+
                     <outputDirectory/>
                 </configuration>
             </plugin>
