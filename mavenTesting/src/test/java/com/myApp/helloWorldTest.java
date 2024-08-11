@@ -1,9 +1,15 @@
 package com.myApp;
-public class helloWorldTest {
-    public void testGetHello() {
 
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class helloWorldTest {
+
+    @Test
+    public void getHello() {
         helloWorld javahw = new helloWorld();
 
-        assert("Hello World".equals(javahw.getHello()));
+        assertEquals("Hello World" ,javahw.getHello());
     }
 }
