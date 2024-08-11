@@ -1,13 +1,13 @@
 package com.myApp;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class helloWorldTest {
+class helloWorldTest {
 
     @Test
-    public void getHello() {
+    void getHello() {
         helloWorld javahw = new helloWorld();
 
         assertEquals("Hello World" ,javahw.getHello());
