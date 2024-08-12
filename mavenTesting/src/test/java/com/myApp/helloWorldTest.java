@@ -11,5 +11,6 @@ class helloWorldTest {
         helloWorld javahw = new helloWorld();
 
         assertEquals("Hello World" ,javahw.getHello());
+        System.out.println("From Junit5");
     }
 }
