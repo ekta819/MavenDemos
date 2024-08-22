@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>jap-entities</module>
-        <module>web-api</module>
+        <module>web-api-xsd</module>
         <module>web-app</module>
         <module>convertersWithMapStruct</module>
     </modules>

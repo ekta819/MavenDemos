@@ -16,18 +16,26 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
+        <!--
+      <dependency>
+          <groupId>com.myApps</groupId>
+          <artifactId>jap-entities</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>com.myApps</groupId>
+          <artifactId>web-api-xsd</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
+      -->
         <dependency>
             <groupId>com.myApps</groupId>
-            <artifactId>jap-entities</artifactId>
+            <artifactId>convertersWithMapStruct</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.myApps</groupId>
-            <artifactId>web-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
