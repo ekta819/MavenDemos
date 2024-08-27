@@ -44,10 +44,23 @@
             <version>5.11.0-RC1</version>
             <scope>test</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.jboss.javaee</groupId>
+            <artifactId>jboss-ejb-api</artifactId>
+            <version>3.0.0.20070913080910</version>
+        </dependency>
     </dependencies>
 
+   <!-- <repositories>
+        <repository>
+            <id>redhat-ga</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+-->
 
 
 
