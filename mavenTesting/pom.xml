@@ -49,6 +49,13 @@
             <artifactId>jboss-ejb-api</artifactId>
             <version>3.0.0.20070913080910</version>
         </dependency>
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc10</artifactId>
+            <version>19.23.0.0</version>
+        </dependency>
+
+
     </dependencies>
 
    <!-- <repositories>
